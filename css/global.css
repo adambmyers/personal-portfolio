@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	font: 20px/1.618 Garamond, Cambria, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+  	font-weight: bold;
+	text-decoration: none;
+}
+
+html {
+  	--primary-red: rgb(233, 114, 93);
+	--secondary-white: rgb(224, 222, 220);
+	--tertiary-gray: rgb(116, 110, 110);
+  	font: 20px/1.618 Garamond, Cambria, sans-serif;
+}
+
+.main-header {
+  	align-items: center;
+ 	background-color: rgb(233, 114, 93);
+	color: var(--secondary-white);
+ 	display: flex;
+ 	justify-content: space-between;
+ 	padding: .5rem;
+ 	padding-left: 3rem;
+	font-size: 30px; 
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	text-shadow:0px 5px 10px #c3b2b2;
+}
+
+.nav__button {
+	background-color: var(--secondary-white);
+	border: none;
+	border-radius: .35rem;
+	color: var(--tertiary-gray);
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	width: 6rem;
+	text-shadow:0px 5px 10px #c3b2b2;
+}
+  
+.nav__list {
+	background-color: var(--primary-red);
+	border-radius: 0 0 0.5rem 0.5rem;
+	list-style: none;
+	padding: 1rem 2rem;
+	position: absolute;
+	right: 0;
+	font-size: 1rem;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+}
+  
+.nav {
+	position: relative;
+}
+
+.nav__item {
+	margin-bottom: 0.5rem;
+}
+
+.nav__item:last-child {
+	margin-bottom: 0;
+}
+
+.hide {
+	display: none;
+}
+
+.pro-statement{
+	margin: 1.5rem;
+	text-align: center;
+	color: var(--tertiary-gray);
+	padding-top: 20px;
+	text-shadow:0px 5px 10px #b2aaa5;
+}
+
+.footer-container {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+	width: 100%;
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	background-color:var(--primary-red);
+	text-align: center;
+	height: 50px;
+	text-shadow:0px 5px 10px #c3b2b2;
+} 

@@ -1,0 +1,115 @@
+.grid-container {
+	display: grid;
+	grid-gap: .5rem;
+	grid-template-columns: repeat(6, 1fr); 
+	grid-template-rows: repeat(4, 1fr); 
+	margin: 2rem auto;
+	padding: 2rem auto;
+	max-width: 1300px;	
+	height: 750px;
+}
+
+.background {
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	grid-row: 1 /span 2;
+	grid-column: 1 / span 6;
+	background-color: rgb(116, 110, 110);
+    border-radius: 15px;
+    padding: 1rem;
+	margin: 1rem;
+	min-width: 800px;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	text-shadow:0px 5px 10px #c3b2b2;
+}
+
+.trivia {
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	grid-row: 3 /span 1;
+	grid-column: 1 / span 6;
+	background-color: rgb(116, 110, 110);
+    border-radius: 15px;
+    padding: 1rem;
+	margin: 1rem;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	text-shadow:0px 5px 10px #c3b2b2;
+}
+
+.resort-container {
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	grid-row: 4 /span 1;
+	grid-column: 2 / span 4;
+	background-color: rgb(116, 110, 110);
+    border-radius: 15px;
+    padding: 1rem;
+	margin: 1rem;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+}
+
+.modal-display-box{
+	text-align: center;
+	grid-row: 5 /span 1;
+	grid-column: 2 / span 4;
+	
+}
+
+.GW, .CB, .KR, .MS {
+	display: inline-block;
+	height: 7rem;
+	width: 7rem;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.5);
+}
+
+
+.modal-display-box-GW, .modal-display-box-CB, .modal-display-box-KR, .modal-display-box-MS {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	visibility: hidden;
+	transform: scale(1.1);
+	transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-content-GW, .modal-content-CB, .modal-content-KR, .modal-content-MS {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	padding: 1rem 1.5rem;
+	width: 24rem;
+	border-radius: 0.5rem;
+}
+.close-button {
+	float: right;
+	width: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 0.25rem;
+	background-color: lightgray;
+}
+.close-button:hover {
+	background-color: darkgray;
+}
+.show-GWmodal, .show-CBmodal, .show-KRmodal, .show-MSmodal  {
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1.0);
+	transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}

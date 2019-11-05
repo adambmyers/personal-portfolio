@@ -1,2 +1,0 @@
-# personal-portfolio
-Basic website 

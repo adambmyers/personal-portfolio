@@ -1,0 +1,135 @@
+.grid1 {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template-columns: repeat(4, 1fr); 
+	grid-template-rows: repeat(4, 1fr); 
+	margin: 4rem auto;
+	padding: 4rem auto;
+	max-width: 1300px;	
+	height: 450px;	
+}
+
+.boxa1 {
+	grid-row: 1 / span 2;
+	border-radius: 15px;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+}
+
+.headshot {
+	border-radius: 15px;
+	height: 100%;
+	width: 100%;
+
+}
+
+.proComp {
+	grid-column: 2 / span 3;
+	display: block;
+	border-radius: 15px;
+	background-color:  rgb(224, 222, 220);
+	font-size: 1rem;
+	text-align: center;
+	padding: 1rem;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	text-shadow:0px 5px 10px #b2aaa5;
+}
+
+.wcci {
+	color: rgb(224, 222, 220);
+	grid-column: 2 / span 2;
+	border-radius: 15px;
+	background-color: rgb(116, 110, 110);
+	text-align: center;
+	font-size: 2rem;
+	padding: 1rem;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	text-shadow:0px 5px 10px #c3b2b2;
+}
+
+.education {
+	color: rgb(224, 222, 220);
+	display: block;
+	grid-column: 4 / span 1;
+	border-radius: 15px;
+	background-color: rgb(116, 110, 110);
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 1rem;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	text-shadow:0px 5px 10px #c3b2b2;
+}
+
+.boxa4 {
+	text-align: center;
+	color: rgb(224, 222, 220);
+	font-size: 1rem;
+	grid-row-start: 3;
+	grid-row-end:5;
+	grid-column: 1 / span 4;
+	padding-top: 3rem;
+	background-color: rgb(116, 110, 110);
+	border-radius: 15px;
+
+}
+
+h3 {
+	text-align: center;
+	font-size: 15px;
+	text-shadow:0px 5px 10px #ae7878;
+}
+
+.footerContainer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+	width: 100%;
+	height: flex;
+	text-align: center;
+	font-size: 15px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(233, 114, 93);
+	text-align: center;
+	
+} 
+
+.image-github, .image-email, .image-linkedin {
+	height: 30px;
+	width: 30px;
+	
+}
+.button-github, .button-email, .button-linkedin{
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+	box-shadow: 10px 10px 52px 10px rgba(17,6,1,1);
+}
+.We {
+	color: rgb(218,35,104);
+}
+.Can {
+	 color: rgb(93,187,70)
+}
+.Code {
+	color: rgb(66,159,215);
+}
+.It {
+	color: rgb(242,103,34);
+}
+.button-wcci {
+	border-radius: 10px;
+	width: 80%;
+	background-color: rgb(224, 222, 220);
+	font: sans-serif;
+	font-size: 2rem;
+	-webkit-box-shadow: 10px 10px 52px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 52px 10px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 52px 10px rgba(0,0,0,0.75);
+}

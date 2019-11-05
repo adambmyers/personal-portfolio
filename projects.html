@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="./Images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./css/projects.css" />
+    <link rel="stylesheet" type="text/css" href="./css/global.css" />
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="main-header__title">Adam B Myers</h1>
+        <nav class="nav">
+        <button class="nav__button">Menu</button>
+            <ul class="nav__list hide">
+                <li class="nav__item"><a href="index.html">Home</a></li>
+                <li class="nav__item"><a href="background.html">Background</a></li>
+                <li class="nav__item"><a href="./index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="pro-statement">
+        <h2>• A Proven Manager Transitioning To Development •</h2>
+    </section> 	
+    <div class="slideshow-container"><div class="slideshow">
+            <div class="project">
+                    <a href="https://github.com/adambmyers/virutal-pet" class="project-link" target="_blank">Virtual Pets</a>
+                    <img class="project-image" src="Images/VirtualPets.png" style="width:60%">
+                    <div class="text">Java • Eclipse • Git Bash • Git Hub • Sublime<br>A command line application simulating Tamagotchi or other vintage digital pets <span id="dots">...</span><span id="more">from the 1990’s.  The game play features two modes of interaction with the pet residents, the ability to take in new pets and adopt out current pets, and a unique tutorial feature that gets the player up to speed in no time.  The project is proud edition to my personal portfolio.</div>
+                    <button onclick="descFunction()" class="button" id="vpBtn">Read More</button>    
+            </div>
+            <div class="project">
+                    <a href="https://github.com/adambmyers/highstreet-hospital" class="project-link" target="_blank">High Street Hospital</a>
+                    <img class="project-image" src="Images/HighStreetHospital.png" style="width:60%">
+                    <div class="text">Java • Eclipse • Git Bash • Git Hub • Sublime<br>You are the new General Manager of a hospital with a secret.  The sweet and caring janitor you met in the interview is a vampire!  Your intuition could not have been more wrong and now it is your responsibility to keep the hospital and its employees out of hot water!  How do you keep the secret and out of jail?  Direct the staff in its day to day operations with an emphasis on keeping the cover up going and the vampire satisfied.  Your in it deep now!</div>
+            </div>
+            <div class="project">
+                    <a href="https://github.com/adambmyers/module3-review-site" class="project-link" target="_blank">Columbus Parks Review Site</a>
+                    <img class="project-image" src="Images/CbusParks.jpg" style="width:60%">
+                    <div class="text">Spring • H2 • Git Bash • HTML5 • CSS<br>An immersive look into the various parks throughout the Columbus Ohio area.  The sites allows users to read and post comments on a variety of park categories such as dog parks, hiking trails, and family friendly parks.  Parks are searchable by both category and formal name.  A fine product of an agile team environment and a proud achievement on the road to becoming a developer.</div>
+            </div>
+            <div class="project">
+                    <a href="https://github.com/adambmyers/BlogPlatform" class="project-link" target="_blank">AP Blog Site</a>
+                    <img class="project-image" src="Images/APblogs.jpg" style="width:60%">
+                    <div class="text">Spring • H2 • Git Bash • HTML5 • CSS<br>Named after the first names of the creators Adam and Parker, AP Blogs is a eloquently simple and easily scalable blog site.  It allows users to post reviews, search for reviews, and comment on reviews.  Content is searchable by author, genera, tag, and title.  I am proud of the functionality of the site with a minimum of lines of code.</div>
+            </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                <br>
+            </div>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+    </div>       
+        </section>
+        <script src="js/projects.js"></script>
+</body>
+<footer>
+    <div class="footer-container">
+        <h3><small>&copy;2019 Adam Myers</small></h3>
+    </div>
+</footer>
+</html>
